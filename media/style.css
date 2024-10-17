@@ -462,7 +462,7 @@ main {
     }
 
     body {
-        background-image: url(../img/bgmobile.jpg);
+        background-image: url(bgmobile.jpg);
         align-self: center;
         background-repeat: no-repeat;
         background-size: 100%;
