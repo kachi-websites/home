@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+  <script src="https://unpkg.com/@phosphor-icons/web">
+  </script>
+  <link rel="icon" href="media/icon.webp">
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- My Style-->
+  <link rel="stylesheet" href="media/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="sidelogo">
+      <a href="#" class="sidelogo"><img class="sidelogo" src="media/logo.gif" alt="logo"></a>
+    </div>
+    <div id="menu-icon" class="menu-icon">
+      <i class="ph ph-list"></i>
+    </div>
+    <ul id="menu-list" class="hidden">
+      <li>
+        <a href="#" target="">Store</a>
+      </li>
+      <li>
+        <a href="#" target="">Comment</a>
+      </li>
+      <li>
+        <a href="#" target="">Events</a>
+      </li>
+      <li>
+        <a href="https://chat.whatsapp.com/IANiGgUNp1hHESPCf4HFxz" target="_blank">Community</a>
+      </li>
+      <li>
+        <a href="https://saweria.co/RayyTopG" target="_blank">Donate</a>
+      </li>
+    </ul>
+  </nav>
+  <script src="script.js"></script>
+</body>
+<div class="mainflex">
+  <div class="logo">
+    <a class="logo" href="#">
+      <img class="logo" src="media/logo.png">
+  </div>
+  <div class="judul">
+    <div class="judul">
+      <a>description</a>
+      <a class="juwa"><b>Server Name!</b></a><a>.</a>
+    </div>
+    <div class="main1_ipcopier_div">
+      <button class="ip1" onclick="copyText()" type="button">
+        <span class="iptext1">your ip</span>
+        <br>
+        <span class="iptext2">Click to copy</span>
+      </button>
+      <script>
+        function copyText() {
+          navigator.clipboard.writeText("your ip?");
+        }
+        $(document).ready(function () {
+          $('.ip1').click(function () {
+            var popup = $('<div>', {
+                class: 'ip1_popup'
+              })
+              .append($('<h3 class="copy_confirm">').text('IP Berhasil DI Copy'))
+            $(this).after(popup);
+            setTimeout(function () {
+              popup.remove();
+            }, 1000);
+          });
+        });
+      </script>
+    <div>
+            </div>
+          </div>
+          <div class="body2">
+          <div id="about">
+          <div class="main5">
+            <a class="headline">Teams</a>
+            <div class="main5_admin_div">
+            </div>
+              <div class="main5_admins_div main5_admins_dev_type2">
+                <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.webp">
+                <div class="main5_admins_description_div">
+                  <a class="main5_admins_description_rank main5_admins_description_rank_owner">[Unknown]</a>
+                  <a class="main5_admins_description_title" href="">Name</a>
+                  <a class="main5_admins_description">Description<br>Description2</a>
+                </div>
+              </div>
+              <div class="main5_admins_div main5_admins_dev_type1">
+                <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.webp">
+                <div class="main5_admins_description_div">
+                  <a class="main5_admins_description_rank main5_admins_description_rank_admin">[Unknown]</a>
+                  <a class="main5_admins_description_title" href="">Name</a>
+                  <a class="main5_admins_description">Description<br>Description2</a>
+                </div>
+              </div>
+            <div class="main5_supporter_div">
+              <div class="main5_supporters_div">
+                <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
+                <div class="main5_supporters_description_div">
+                  <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Unknown]</a>
+                  <a class="main5_supporters_description_title" href="">Name</a>
+                  <a class="main5_supporters_description">Description<br>Description2</a>
+                </div>
+              </div>
+              <div class="main5_supporters_div">
+                <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
+                <div class="main5_supporters_description_div">
+                  <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Unknown]</a>
+                  <a class="main5_supporters_description_title" href="">Name</a>
+                  <a class="main5_supporters_description">Description<br>Description2</a>
+                </div>
+              </div>
+              <div class="main5_supporters_div">
+                <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
+                <div class="main5_supporters_description_div">
+          <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Unknown]</a>
+                  <a class="main5_supporters_description_title" href="">Name</a>
+                  <a class="main5_supporters_description">Description<br>Description2</a>
+                </div>
+              </div>
+              <div class="main5_supporters_div">
+                <img class="main5_supporters_img" alt="supporters member img" src="media/member_placeholder.webp">
+                <div class="main5_supporters_description_div">
+                  <a class="main5_supporters_description_rank main5_supporters_description_rank_supporter">[Unknown]</a>
+                  <a class="main5_supporters_description_title" href="">Name</a>
+                  <a class="main5_supporters_description">Description<br>Description2</a>
+                </div>
+              </div>
+              <img class="husk" src="media/walkinghusk.webp">
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+            
+
+</html>
